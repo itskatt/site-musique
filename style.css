@@ -1,0 +1,100 @@
+body {
+    /* L'image en arriere plan */
+    background: fixed;
+    background-image: url("images/cover-flou.jpg");
+    background-color: rgb(7,4,5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    /* Le texte de la page */
+    text-align: center;
+    font-family: 'Roboto';
+    color:rgb(143,159,171);
+    font-size: 150%;
+    text-shadow: 2px 2px 2px rgb(25, 29, 32); /* posx posy flou couleur*/
+}
+
+h1 {
+    font-size: 300%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.border {
+    border-radius: 10px;
+    border-style: groove;
+    border-color: rgb(143,159,171);
+    overflow: auto;
+}
+
+iframe {
+    border: none;
+    width: 400px;
+    height: 250px;
+}
+
+img {
+    width: 25%;
+    min-width: 250px;
+    border-radius: 25px;
+}
+
+p {
+    padding-left: 1%;
+    padding-right: 5%;
+    text-align: justify;
+}
+
+table {
+    margin: 0px auto;
+    border-collapse: collapse;
+}
+
+td, th {
+    border-width: 1%;
+    border-style: solid;
+    border-color: rgb(93, 103, 110);
+}
+
+th {
+    background-color: rgb(93, 103, 110, 0.4);
+}
+
+ul {
+    display: table;
+    margin: 0 auto; /* Pour centrer toute la liste */
+}
+
+li {
+    text-align: justify;
+}
+
+i {
+    font-size: 25px;
+}
+
+a:link {
+    color: rgb(184, 194, 201);
+}
+
+a:visited {
+    color: 	rgb(148, 157, 163);
+}
+
+a:hover {
+    color: rgb(220, 232, 240);
+}
+
+a:active {
+    color: rgb(173, 210, 236);
+}
