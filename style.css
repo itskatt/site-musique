@@ -35,6 +35,7 @@ h2 {
     border-style: groove;
     border-color: rgb(143,159,171);
     overflow: auto;
+    margin-bottom: 44px;
 }
 
 iframe {
