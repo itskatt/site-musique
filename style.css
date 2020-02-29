@@ -2,7 +2,7 @@ body {
     /* L'image en arriere plan */
     background: fixed;
     background-image: url("images/cover-flou.jpg");
-    background-color: rgb(7,4,5);
+    background-color: rgb(7, 4, 5);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -33,9 +33,28 @@ h2 {
 .border {
     border-radius: 10px;
     border-style: groove;
-    border-color: rgb(143,159,171);
+    border-color: rgb(143, 159, 171);
     overflow: auto;
     margin-bottom: 44px;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-image: url("images/cover-flou-mobile.jpg");
+        font-size: 75%;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
 }
 
 iframe {
