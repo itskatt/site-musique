@@ -41,7 +41,7 @@ h2 {
 @media screen and (max-width: 800px) {
     body {
         background-image: url("images/cover-flou-mobile.jpg");
-        font-size: 75%;
+        font-size: 100%;
     }
 
     h1 {
@@ -49,7 +49,7 @@ h2 {
     }
 
     h2 {
-        font-size: 150%;
+        font-size: 170%;
     }
 
     .flex {
@@ -61,6 +61,13 @@ iframe {
     border: none;
     width: 400px;
     height: 250px;
+}
+
+@media screen and (max-width: 470px) {
+    iframe {
+        width: 90vw;
+        height: 56.25vw;
+    }
 }
 
 img {
